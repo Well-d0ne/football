@@ -1,0 +1,454 @@
+/* font style link  */
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600&family=Poppins:wght@400;500;700&display=swap');
+
+/* common utility */
+* {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* responsive football heading part */
+.top-banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background: #2D25A0;
+    height: 677px;
+
+}
+
+.heading-text h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+
+}
+
+
+.btn-style {
+    background-color: #E02C6D;
+    font-size: 16px;
+    font-weight: 500;
+    width: 168px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.fa-solid.right-logo {
+    margin-left: 8px;
+}
+
+
+
+.heading-img {
+    position: relative;
+
+    display: flex;
+}
+
+
+
+.heading-img img {
+    width: 600px;
+    /* border: 2px solid red; */
+    /* width: 556.01px;
+    height: 438px; */
+
+
+}
+
+
+
+
+.image-3 {
+
+    position: absolute;
+    top: 37px;
+    left: 22px;
+
+
+
+    z-index: 1;
+}
+
+
+
+.image-2 {
+
+
+    position: absolute;
+
+}
+
+.heading-img .image-2 {
+    transition: transform 1s;
+}
+
+.top-banner:hover .image-2 {
+    transform: rotate(45deg);
+
+}
+
+.heading-img .image-3 {
+    transition: transform 1s ease-out;
+}
+
+.top-banner:hover .image-3 {
+    transform: translate(-700px, -900px);
+
+}
+
+*/
+
+/* .heading-img:hover img {
+    transform: scale(1.2) rotate(360deg);
+    ;
+} 
+
+/* blogs part */
+.blogs-part {
+    background: #ffffff;
+
+
+
+
+
+}
+
+.blog {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 165px;
+    /* border: 2px solid red; */
+    width: 1050px;
+}
+
+.blogs {
+
+    width: 300px;
+    height: 426px;
+    padding: 15px;
+
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    /* border: 2px solid rgb(11, 3, 247); */
+}
+
+.image img {
+
+    width: 300px;
+    height: 256px;
+
+
+
+
+}
+
+.blog-text {
+    font-size: 28px;
+    font-weight: 700;
+    color: #18191F;
+    margin-top: 16px;
+    margin-bottom: 0;
+
+}
+
+.blog-article {
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-top: 10px;
+
+}
+
+/* All highlights style  */
+.highlights-part {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.highlight-detail {
+    width: 469px;
+    height: 309px;
+
+}
+
+.highlight-heading {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.1;
+    margin: 0;
+    color: #0A0826;
+}
+
+.highlight-text {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 24pX;
+    color: #6C6C6C;
+}
+
+.highlight-img img {
+    margin-left: 66px;
+    width: 567px;
+    height: 427px;
+}
+
+
+
+
+.fa-brands,
+.fa-solid.fa-basketball {
+
+    font-size: 17px;
+    background-color: #dddddd;
+    padding: 7px;
+    border-radius: 17px;
+
+
+
+    color: #969BAB;
+    margin-right: 14px;
+}
+
+/* photo gallery */
+.photos-gallery {
+    background-image: url(https://cdn.wallpapersafari.com/54/61/nYztbX.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 700px;
+    margin-bottom: 50px;
+}
+
+
+.photos-gallery h1 {
+    text-align: center;
+    color: #b0abf6;
+    font-size: 50px;
+    padding-top: 50px;
+
+}
+
+.photo {
+
+    display: grid;
+    /* margin: 30px 50px; */
+    padding: 80px 80px;
+    padding-top: 0px;
+
+
+    grid-template-columns: repeat(4, 1fr);
+
+
+}
+
+.photo img {
+
+    transition: transform 0.4s;
+    width: 100%;
+}
+
+.photo img:hover {
+    transform: scale(1.2);
+
+}
+
+/* last post  */
+.last-post {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+
+}
+
+.post-part-1 {
+    margin-right: 50px;
+}
+
+.post-part-1,
+.post-part-2 {
+    padding: 15px;
+    box-shadow: 1px 6px 17px lightgrey;
+    margin-bottom: 50px;
+}
+
+.post-part-1>img,
+.post-part-2>img {
+    width: 100%;
+}
+
+.bottom-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-image-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-image-text img {
+    margin-right: 10px;
+}
+
+.bottom-icon {
+    color: rgb(184, 184, 184);
+    margin-right: 20px;
+}
+
+/* footer style  */
+.footer-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 14px;
+    gap: 20px 0px;
+}
+
+.footer-img img {
+
+
+    width: 483.87px;
+    height: 110px;
+}
+
+
+/* responsive style for mobile device */
+@media only screen and (max-width:688px) {
+
+
+    .top-banner {
+        flex-direction: column;
+        height: 900px;
+    }
+
+    .heading-text h1 {
+        text-align: center;
+        font-size: 50px;
+        padding: 20px;
+    }
+
+    .btn-style {
+        margin: auto;
+    }
+
+
+    .heading-img img {
+        /* border: 1px solid rgb(39, 4, 218); */
+        width: 80%;
+    }
+
+    .heading-img .image-1 {
+        width: 100%;
+
+
+    }
+
+    .image-3 {
+
+        position: absolute;
+        top: 17px;
+        left: 10px;
+
+
+
+
+    }
+
+    /* blog part */
+    .blog {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+
+
+    }
+
+    /* all highlight part */
+    .highlights-part {
+        flex-direction: column;
+
+    }
+
+    .highlight-detail {
+        width: 100%;
+        /* border: 1px solid rgb(17, 0, 255); */
+
+    }
+
+    .highlight-text {
+
+        padding: 20px;
+    }
+
+    .highlight-heading {
+
+        margin: 0;
+        padding: 20px;
+
+
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .highlight-img img {
+
+        width: 300px;
+        height: 250px;
+        padding: 0px;
+        margin: 0px;
+
+
+    }
+
+    /* post part  */
+    .last-post {
+        flex-direction: column;
+
+    }
+
+    .post-part-1 {
+        margin: 0;
+    }
+
+    .bottom-icon {
+        margin-right: 5px;
+        font-size: 13px;
+    }
+
+    /* gallery  */
+    .photo {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+    }
+
+    /* footer  */
+    .footer-img img {
+
+        width: 100%;
+    }
+
+
+}
